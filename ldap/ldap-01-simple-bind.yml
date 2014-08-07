@@ -1,0 +1,9 @@
+properties:
+  uaa:
+    ldap:
+      enabled: true
+      profile_type: simple-bind
+      url: ldap://192.168.50.4:389/
+      mailAttributeName: mail
+      userDNPattern: cn={0},ou=Users,dc=test1,dc=com:cn={0},ou=Users,dc=test,dc=com
+      userDNPatternDelimiter: ":"
