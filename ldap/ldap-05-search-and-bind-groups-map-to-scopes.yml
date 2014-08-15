@@ -13,7 +13,7 @@ properties:
         profile_type: groups-map-to-scopes
         autoAdd: true
         searchBase: 'dc=test,dc=com'
-        groupRoleAttribute: description
+        groupRoleAttribute: spring.security.ldap.dn
         groupSearchFilter: 'member={0}'
         searchSubtree: true
         maxSearchDepth: 10
