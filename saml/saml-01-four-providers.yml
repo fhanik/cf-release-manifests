@@ -1,7 +1,9 @@
 properties:
   login:
+    idpEntityAlias: 'testalias'
+    idpMetadataURL: 'http://localhost:8081/test'
     saml:
-      saml-providers:
+      providers:
         okta-local:
           idpMetadata: sample-okta-localhost.xml
           saml:
