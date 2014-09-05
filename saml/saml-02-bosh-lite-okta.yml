@@ -1,5 +1,7 @@
 properties:
   login:
+    entityBaseURL: https://login.10.244.0.34.xip.io
+    entityID: login.10.244.0.34.xip.io
     saml:
       providers:
         bosh-lite-okta-preview:
