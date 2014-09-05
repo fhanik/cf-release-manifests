@@ -1,6 +1,6 @@
 properties:
   login:
-    protocol: https
+    protocol: http
     saml:
       entityid: login.10.244.0.34.xip.io
       providers:
