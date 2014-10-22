@@ -1,0 +1,26 @@
+properties:
+  login:
+    messages:
+      scope:
+        tokens:
+          read: Test 1 View details of your approvals you have granted to this and other applications
+          write: Test 1 Cancel the approvals like this one that you have granted to this and other applications
+        cloud_controller:
+          read: Test 1 View details of your applications and services
+          write: Test 1 Push applications to your account and create and bind services
+        openid: Test 1 Access your profile data including email address
+        password:
+          write: Test 1 Change your password
+        scim.userids: Test 1 Translate user ids to names and vice versa
+        uaa.user: Test 1 Act as a user in the UAA
+      change_password:
+        form_error: Test 1 Passwords must match and not be empty.
+        unauthorized: Test 1 Please enter a valid current password.
+      forgot_password.form_error: Test 1 Please enter a valid email address.
+      forgot_password.bad_code: Test 1 Sorry, your reset password link is no longer valid. You can request another one below.
+      reset_password.form_error: Test 1 Passwords must match and not be empty.
+      email_change:
+        success: Test 2 Email address successfully verified.
+        non-uaa-origin: Test 2 Sorry, your email cannot be changed from here.
+        invalid_email: Test 2 Please enter a valid email address.
+        invalid_code: Test 2 Your verification link has expired. Please request another.
