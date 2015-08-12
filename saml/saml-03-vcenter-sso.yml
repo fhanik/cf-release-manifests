@@ -1,0 +1,12 @@
+properties:
+  login:
+    saml:
+      providers:
+        vcenter-sso:
+          idpMetadata: https://win2012-sso2.vsphere-example.com:7444/websso/SAML2/Metadata/vsphere.local
+          nameID: urn:oasis:names:tc:SAML:2.0:nameid-format:persistent
+          assertionConsumerIndex: 0
+          metadataTrustCheck: false
+          showSamlLoginLink: true
+          linkText: 'vCenter SSO'
+
